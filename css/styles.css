@@ -6,18 +6,16 @@ body{
 
 #title{
     background-color: #FE3C72;    
-    height: 700px;
-    overflow: hidden;
-
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .title-image{
     transform: rotate(25deg);
     width: 48%;
+    position: absolute;
 }
 
 h1{
@@ -42,6 +40,7 @@ h3{
 p{
     color: #8f8f8f;
     font-weight: 500;
+    font-size: 19px;
 }
 
 .navbar-brand{
@@ -74,6 +73,9 @@ p{
 
 #features{
     padding: 7% 15%;
+    background-color: white;
+    position:relative;
+    z-index: 1;
 }
 
 .icons{
@@ -83,7 +85,6 @@ p{
 
 
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color: #ff6b76;
     color: white;
@@ -109,4 +110,55 @@ p{
 .press-logos{
     width: 15%;
     margin: 20px 20px 50px 20px;
+}
+
+.tindog-logo{
+    width: 4%;
+    margin: 0 5px 0 0;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta{
+    background-color: #FE3C72;    
+    color: white;
+    text-align: center;
+    padding: 5% 30%;
+}
+
+.bottom-text{
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.bottom-icon{
+    margin: 15px 10px; 
 }
